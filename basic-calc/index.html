@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <span class="results"></span>
+            <div class="key_calc">
+                <table>
+                    <tr>
+                        <td><button class="buttons color" onclick="clean()"><abbr title="ESC">C</abbr></button></td>
+                        <td><button class="buttons color" onclick="back()"><abbr title="BACKSPACE">&lt;</abbr></button></td>
+                        <td><button class="buttons color" onclick="insert('/')">/</button></td>
+                        <td><button class="buttons color" onclick="insert('*')">X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="buttons" onclick="insert('7')">7</button></td>
+                        <td><button class="buttons" onclick="insert('8')">8</button></td>
+                        <td><button class="buttons" onclick="insert('9')">9</button></td>
+                        <td><button class="buttons color" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="buttons" onclick="insert('4')">4</button></td>
+                        <td><button class="buttons" onclick="insert('5')">5</button></td>
+                        <td><button class="buttons" onclick="insert('6')">6</button></td>
+                        <td><button class="buttons color" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="buttons" onclick="insert('1')">1</button></td>
+                        <td><button class="buttons" onclick="insert('2')">2</button></td>
+                        <td><button class="buttons" onclick="insert('3')">3</button></td>
+                        <td rowspan="2"><button class="buttons color" style="height: 107px;" onclick="calculate()" <abbr title="ENTER">=</abbr></button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="buttons" style="width: 107px;">0</button></td>
+                        <td><button class="buttons color" onclick="insert('.')">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+COLORS----------
+
+Purple - # 58213B
+White - #FFF
+White2 - 3F1E9DA
+Dark Blue - #0F0D1A
