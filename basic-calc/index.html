@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="src/js/script.js" defer></script>
 
     <title>Calculadora Básica</title>
@@ -17,8 +18,8 @@
                 <table>
                     <tr>
                         <td><button class="buttons color" onclick="clean()"><abbr title="ESC">C</abbr></button></td>
-                        <td><button class="buttons color" onclick="back()"><abbr title="BACKSPACE">&lt;</abbr></button></td>
-                        <td><button class="buttons color" onclick="insert('/')">/</button></td>
+                        <td><button class="buttons color" onclick="back()"><abbr title="BACKSPACE"><i class="fa-solid fa-delete-left"></i></abbr></button></td>
+                        <td><button class="buttons color" onclick="insert('/')"><i class="fa-solid fa-divide"></i></button></td>
                         <td><button class="buttons color" onclick="insert('*')">X</button></td>
                     </tr>
                     <tr>
@@ -40,7 +41,7 @@
                         <td rowspan="2"><button class="buttons color" style="height: 107px;" onclick="calculate()" <abbr title="ENTER">=</abbr></button></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><button class="buttons" style="width: 107px;">0</button></td>
+                        <td colspan="2"><button class="buttons" onclick="insert('0')" style="width: 107px;">0</button></td>
                         <td><button class="buttons color" onclick="insert('.')">.</button></td>
                     </tr>
                 </table>
