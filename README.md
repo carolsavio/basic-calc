@@ -1,5 +1,8 @@
-## Basic Calc 
-### Desenvolvido com HTML, CSS e JS.
+# Calculadora básica
+## Desenvolvido com HTML, CSS e JS.
+### Você pode testá-la [aqui](https://basic-calc-self.vercel.app/).
+
+
 
 <div style="display: inline-block">
     <img aling="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
